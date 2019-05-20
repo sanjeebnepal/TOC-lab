@@ -41,6 +41,7 @@ int main()
 	char str[100];
 	printf("Enter the string\n");
 	gets(str);
+    puts(str);
    
     if(check(str)==0)
     printf("\n\t\tKEYWORD IDENTIFIED ;)");
